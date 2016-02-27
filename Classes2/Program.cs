@@ -84,6 +84,40 @@ namespace Classes2
                         figure3.PerimetrCalculator();
                     }
                     break;
+                case 4:                    
+                    User user = new User("testLogin","testName", "testLastname",22,"27.02.16");
+                    user.showUser();                    
+                    break;
+                case 5:
+                    Converter converter = new Converter(27.0d, 30.0d, 0.33d);
+                    Console.WriteLine("Enter\n1.USD \n2.EUR \n3.RUB");
+                    int typeCurrency;
+                    double amount;
+                    Console.WriteLine("Enter currency");
+                    int.TryParse(Console.ReadLine(), out typeCurrency);
+                    Console.WriteLine("Enter amount");
+                    double.TryParse(Console.ReadLine(), out amount);
+                    
+                    switch (typeCurrency)
+                    {
+                        case 1:
+                            converter.UAHToCurrency(1, amount);
+                            break;
+                        case 2:
+                            converter.UAHToCurrency(2, amount);
+                            break;
+                        case 3:
+                            converter.UAHToCurrency(3, amount);
+                            break;
+                        default:
+                            break;
+                    }
+                    Console.WriteLine("Convert to UAH:");
+                    converter.CurrencyToUAH(1, amount);
+                    converter.CurrencyToUAH(2, amount);
+                    converter.CurrencyToUAH(3, amount);
+                    
+                    break;
             }
             
         
