@@ -35,7 +35,8 @@ namespace Classes2
                     result = amountUAH / rub;
                     Console.WriteLine("{0} uah = {1} RUB", amountUAH, result);
                     break;
-                default: result = 0d;
+                default: 
+                    result = 0d;
                     break;
             }
             return result;

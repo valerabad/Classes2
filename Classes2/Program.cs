@@ -113,6 +113,7 @@ namespace Classes2
                             break;
                     }
                     Console.WriteLine("Convert to UAH:");
+
                     converter.CurrencyToUAH(1, amount);
                     converter.CurrencyToUAH(2, amount);
                     converter.CurrencyToUAH(3, amount);

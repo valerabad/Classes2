@@ -24,7 +24,7 @@ namespace Classes2
 
         public void showUser()
         {
-            Console.WriteLine("Login: {0}\nName: {1}\nLastname: {2}\nAge: {3}\nDate: {4}",login, name, lastname, age, dateFill);
+            Console.WriteLine("Login: {0}\nName: {1}\nLastname: {2}\nAge: {3}\nDate: {4}", login, name, lastname, age, dateFill);
         }
     }
 }
