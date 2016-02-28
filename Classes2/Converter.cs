@@ -7,9 +7,9 @@ namespace Classes2
 {
     class Converter
     {
-        double usd;
-        double eur;
-        double rub;
+       readonly double usd;
+       readonly double eur;
+       readonly double rub;
 
         public Converter(double usd, double eur, double rub)
         {

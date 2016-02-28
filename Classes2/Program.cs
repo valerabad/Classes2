@@ -95,7 +95,7 @@ namespace Classes2
                     double amount;
                     Console.WriteLine("Enter currency");
                     int.TryParse(Console.ReadLine(), out typeCurrency);
-                    Console.WriteLine("Enter amount");
+                    Console.WriteLine("Enter amount UAH");
                     double.TryParse(Console.ReadLine(), out amount);
                     
                     switch (typeCurrency)
@@ -114,9 +114,9 @@ namespace Classes2
                     }
                     Console.WriteLine("Convert to UAH:");
 
-                    converter.CurrencyToUAH(1, amount);
-                    converter.CurrencyToUAH(2, amount);
-                    converter.CurrencyToUAH(3, amount);
+                    converter.CurrencyToUAH(1, amount); // usd
+                    converter.CurrencyToUAH(2, amount); // eur
+                    converter.CurrencyToUAH(3, amount); // rub
                     
                     break;
             }

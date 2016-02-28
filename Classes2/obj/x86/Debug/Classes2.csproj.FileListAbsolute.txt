@@ -8,3 +8,6 @@ C:\Users\HP\Desktop\Course\Classes2\Classes2\bin\Debug\Classes2.exe
 C:\Users\HP\Desktop\Course\Classes2\Classes2\bin\Debug\Classes2.pdb
 C:\Users\HP\Documents\GitHub\Classes2\Classes2\obj\x86\Debug\Classes2.exe
 C:\Users\HP\Documents\GitHub\Classes2\Classes2\obj\x86\Debug\Classes2.pdb
+C:\Users\HP\Documents\GitHub\Classes2\Classes2\bin\Debug\Classes2.exe
+C:\Users\HP\Documents\GitHub\Classes2\Classes2\bin\Debug\Classes2.pdb
+C:\Users\HP\Documents\GitHub\Classes2\Classes2\obj\x86\Debug\Classes2.csprojResolveAssemblyReference.cache
