@@ -5,8 +5,10 @@ using System.Text;
 
 namespace Classes2
 {
+    enum Post : byte { director, secretary, accountant, manager };
     class Program
     {
+        
         static void Main(string[] args)
         {
             Console.WriteLine("Enter number task:");
@@ -118,6 +120,12 @@ namespace Classes2
                     converter.CurrencyToUAH(2, amount); // eur
                     converter.CurrencyToUAH(3, amount); // rub
                     
+                    break;
+                case 6:
+                    Employee employee = new Employee("Valeriy", "Baditsa");
+                    employee.GetSalaryAndFee(Post.manager,4);
+                    employee.GetSalaryAndFee(Post.director, 10);
+                    employee.GetSalaryAndFee(Post.accountant, 2);
                     break;
             }
             

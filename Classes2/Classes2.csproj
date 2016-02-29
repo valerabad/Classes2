@@ -46,7 +46,9 @@
     <Compile Include="Adress.cs" />
     <Compile Include="Book.cs" />
     <Compile Include="Converter.cs" />
+    <Compile Include="Employee.cs" />
     <Compile Include="Figure.cs" />
+    <Compile Include="Invoice.cs" />
     <Compile Include="Point.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
