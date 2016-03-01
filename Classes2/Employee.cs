@@ -9,13 +9,12 @@ namespace Classes2
     {
         string name;
         string lastname;        
-        const double minSalary = 200d;
+        const double minSalary = 200d;       
      
         public Employee(string name, string lastname)
         {
             this.name = name;
-            this.lastname = lastname;
-            
+            this.lastname = lastname;            
         }
 
         public void GetSalaryAndFee(Post post, int experience)
