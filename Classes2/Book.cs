@@ -23,58 +23,5 @@ namespace Classes2
             this.content.valContent = content;
         }
     }
-
-    class Title
-    {
-        string title;      
-        public string valTitle
-        {
-            get { return title; }
-            set { title = value; }
-        }
-
-        public void show() 
-        {
-            Console.ForegroundColor = ConsoleColor.DarkRed;
-            Console.WriteLine("Название: {0}", title);
-            Console.ResetColor();
-        }              
-    }
-
-    class Author
-    {
-        string author;
-
-        public string valAuthor
-        {
-            get { return author; }
-            set { author = value; }
-        }
-
-        public void show() 
-        {
-            Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("Автор: {0}", author);
-            Console.ResetColor();
-
-        }
-    }
-
-    class Content
-    {
-        string content;
-
-        public string valContent
-        {
-            get { return content; }
-            set { content = value; }
-        }
-
-        public void show() 
-        {
-            Console.ForegroundColor = ConsoleColor.Blue;
-            Console.WriteLine("Содержание: {0}",content);
-            Console.ResetColor();
-        }
-    }
+    
 }

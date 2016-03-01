@@ -7,8 +7,8 @@ namespace Classes2
 {
     class Employee
     {
-        string name;
-        string lastname;        
+        string name {get; set;}
+        string lastname {get; set;}        
         const double minSalary = 200d;       
      
         public Employee(string name, string lastname)

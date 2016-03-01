@@ -44,7 +44,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Adress.cs" />
+    <Compile Include="Author.cs" />
     <Compile Include="Book.cs" />
+    <Compile Include="Content.cs" />
     <Compile Include="Converter.cs" />
     <Compile Include="Employee.cs" />
     <Compile Include="Figure.cs" />
@@ -53,6 +55,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Rectanglecs.cs" />
+    <Compile Include="Title.cs" />
     <Compile Include="User.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

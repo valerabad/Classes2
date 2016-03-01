@@ -12,9 +12,19 @@ namespace Classes2
         readonly string customer;
         readonly string provider;
 
-        string article;
+        public string article {get; set;}
         int quantity;
-        double amount;
+        public int Quantity
+        {
+            get { return quantity; }
+            set 
+            {
+                if (value >= 0) quantity = value;
+                else quantity = 0;
+            }
+        }
+       
+        public double amount {get; set;}
         Dictionary<string, double> articleCost = new Dictionary<string, double>();
 
         public Invoice(int account, string customer, string provider)

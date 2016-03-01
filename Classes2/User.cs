@@ -7,10 +7,10 @@ namespace Classes2
 {
     class User
     {
-        string login;
-        string name;
-        string lastname;
-        int age;
+        string login { get; set; }
+        string name {get; set;}
+        string lastname {get; set;}
+        int age { get; set; }
         public readonly string dateFill;
 
         public User(string login, string name, string lastname, int age, string dateFill)
