@@ -5,9 +5,21 @@ using System.Text;
 
 namespace Classes2
 {
-    class Adress
+    public class Adress
     {
         string country;
+
+        public Adress() { }
+        public Adress(string country, string city, int index, string street, int house, int apartment)
+        {
+            this.country = country;
+            this.city = city;
+            this.index = index;
+            this.apartment = apartment;
+            this.house = house;
+            this.street = street;
+        }
+
         public string Country
         {
             get

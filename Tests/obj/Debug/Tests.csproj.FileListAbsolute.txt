@@ -1,0 +1,7 @@
+C:\Users\HP\Documents\GitHub\Classes2\Tests\bin\Debug\Tests.dll
+C:\Users\HP\Documents\GitHub\Classes2\Tests\bin\Debug\Tests.pdb
+C:\Users\HP\Documents\GitHub\Classes2\Tests\bin\Debug\Classes2.exe
+C:\Users\HP\Documents\GitHub\Classes2\Tests\bin\Debug\Classes2.pdb
+C:\Users\HP\Documents\GitHub\Classes2\Tests\obj\Debug\Tests.csprojResolveAssemblyReference.cache
+C:\Users\HP\Documents\GitHub\Classes2\Tests\obj\Debug\Tests.dll
+C:\Users\HP\Documents\GitHub\Classes2\Tests\obj\Debug\Tests.pdb

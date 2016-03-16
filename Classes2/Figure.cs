@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Classes2
 {
-    class Figure
+    public class Figure
     {
         Point[] PointArray;
       
@@ -23,7 +23,7 @@ namespace Classes2
             return Math.Sqrt(Math.Pow(A.X - B.X, 2) + Math.Pow(A.Y - B.Y, 2));
         }
 
-        public void PerimetrCalculator()
+        public double PerimetrCalculator()
         {
             double perimetr = 0;
             for (int i = 0; i < PointArray.Length-1; i++)
@@ -35,6 +35,7 @@ namespace Classes2
             for (int i = 0; i < PointArray.Length; i++)
                 Console.Write(this.PointArray[i].Name);
             Console.WriteLine(" perimetr = {0}", perimetr);
+            return perimetr;
         }
     }
 }

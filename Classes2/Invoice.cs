@@ -58,6 +58,18 @@ namespace Classes2
             Console.WriteLine("Клиент: {0} Поставщик: {1}", this.customer, this.provider);
             Console.WriteLine("Сумма с учётом НДС: {0}\nСумма без учёта НДС: {1}", resultWithVAX, resultWithoutVAX); 
         }
+
+        public double costWithVAX()
+        {            
+            Console.WriteLine("Клиент: {0} Поставщик: {1}", this.customer, this.provider);
+            return amount + amount / 100d * percentVAX;            
+        }
+
+        public double costWithoutVAX()
+        {
+            Console.WriteLine("Клиент: {0} Поставщик: {1}", this.customer, this.provider);
+            return amount;
+        }
         
     }
 }

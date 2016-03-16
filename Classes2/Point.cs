@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Classes2
 {
-    class Point
+    public class Point
     {
         int x;
         int y;

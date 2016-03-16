@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Classes2
 {
-    class Rectangle
+    public class Rectangle
     {
         double side1, side2;
 
@@ -15,14 +15,18 @@ namespace Classes2
             this.side2 = side2;
         }
 
-        private double AreaCalculator()
+        public double AreaCalculator()
         {
-            return side1 * side2;
+            if (side1 >= 0 && side2 >= 0)
+                return side1 * side2;
+            else
+                return -1;
         }
 
-        private double PerimetrCalculator()
+        public double PerimetrCalculator()
         {
-            return 2.0d * (side1 + side2);
+            double res = (side1 >= 0 && side2 >= 0) ? 2.0d * (side1 + side2) : -1;
+            return res;
         }
 
         public double Area

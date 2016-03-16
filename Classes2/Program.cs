@@ -13,7 +13,7 @@ namespace Classes2
         {
             while (true)
             {
-                Console.WriteLine("Enter number task 1-7 or other key for exit");
+                Console.WriteLine("Enter number task 0-7 or other key for exit");
                 int task;
                 int.TryParse(Console.ReadLine(), out task);
 
@@ -136,7 +136,9 @@ namespace Classes2
                         invoice.percentVAX = 12d;
                         invoice.AddPurchase("ld3ID", 10);
                         invoice.AddPurchase("ld87", 2);
-                        invoice.ResultCost();
+                        //invoice.ResultCost();
+                        Console.WriteLine("Сумма с учётом НДС: {0}",invoice.costWithVAX());
+                        Console.WriteLine("Сумма без учёта НДС: {0}", invoice.costWithoutVAX());
                         break;
                     default:
                         Environment.Exit(0);
